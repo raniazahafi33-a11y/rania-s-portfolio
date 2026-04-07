@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio | Rania Zahafi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Rania Zahafi</h1>
+    <p>Responsable Bureau Méthodes</p>
+</header>
+
+<nav>
+    <a href="#about">À propos</a>
+    <a href="#projects">Projets</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>À propos</h2>
+    <p>
+        Ingénieure spécialisée en méthodes industrielles, optimisation de processus 
+        et amélioration continue. Expérience en CAO (Inventor), SAP et gestion de production.
+    </p>
+</section>
+
+<section id="projects">
+    <h2>Mes Projets</h2>
+
+    <div class="project">
+        <h3>Optimisation Process Industriel</h3>
+        <p>Réduction du temps de production de 20% grâce à l'amélioration des flux.</p>
+    </div>
+
+    <div class="project">
+        <h3>Conception CAO</h3>
+        <p>Modélisation et amélioration de pièces mécaniques avec Inventor.</p>
+    </div>
+
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email : rania@email.com</p>
+    <p>LinkedIn : linkedin.com/in/rania</p>
+</section>
+
+<footer>
+    <p>© 2026 Rania Zahafi</p>
+</footer>
+
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+header {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+nav {
+    text-align: center;
+    background: #444;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px;
+}
+
+.project {
+    background: white;
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 8px;
+}
+console.log("Portfolio chargé !");
